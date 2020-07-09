@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="93.904228">
+<testcase classname="Google Feeling Lucky" name="Google Feeling Lucky Page" time="57.901195">
+<system-out><![CDATA[Given User is on google page................................................passed
+When User enters "Jaffar Sadhik"............................................passed
+And User clicks the I'm Feeling Lucky button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Feeling Lucky" name="Google Feeling Lucky Page 2" time="21.565603">
+<system-out><![CDATA[Given User is on google page................................................passed
+When User enters "Sadhik"...................................................passed
+And User clicks the I'm Feeling Lucky button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="Google Search Page" time="14.43743">
+<system-out><![CDATA[Given User is on google page................................................passed
+When User enters text.......................................................passed
+And User clicks the search button...........................................passed
+Then User able to search the text...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="144432" started-at="2020-06-22T16:55:49Z" finished-at="2020-06-22T16:58:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="144432" started-at="2020-06-22T16:55:49Z" finished-at="2020-06-22T16:58:13Z">
+      <class name="testNG.TestNGdemo">
+        <test-method status="PASS" signature="SetUPTest()[pri:0, instance:testNG.TestNGdemo@1ed4004b]" name="SetUPTest" is-config="true" duration-ms="76" started-at="2020-06-22T16:55:49Z" finished-at="2020-06-22T16:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUPTest -->
+        <test-method status="PASS" signature="TestExcecution()[pri:0, instance:testNG.TestNGdemo@1ed4004b]" name="TestExcecution" duration-ms="40533" started-at="2020-06-22T16:55:49Z" finished-at="2020-06-22T16:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExcecution -->
+        <test-method status="PASS" signature="TestExcecution2()[pri:0, instance:testNG.TestNGdemo@1ed4004b]" name="TestExcecution2" duration-ms="103641" started-at="2020-06-22T16:56:30Z" finished-at="2020-06-22T16:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExcecution2 -->
+        <test-method status="PASS" signature="TearUPTest()[pri:0, instance:testNG.TestNGdemo@1ed4004b]" name="TearUPTest" is-config="true" duration-ms="1" started-at="2020-06-22T16:58:13Z" finished-at="2020-06-22T16:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearUPTest -->
+      </class> <!-- testNG.TestNGdemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
