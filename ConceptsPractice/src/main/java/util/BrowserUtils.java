@@ -15,7 +15,7 @@ public class BrowserUtils {
 	{
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("D:\\Eclipse Oxygen\\Eclipse_Workspace\\ConceptsPractice\\src\\main\\java\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("D:\\Eclipse Oxygen\\Eclipse_Workspace\\SeleniumConceptsPractice\\ConceptsPractice\\src\\main\\java\\config\\config.properties");
 			prop.load(fis);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -24,7 +24,7 @@ public class BrowserUtils {
 
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse Oxygen\\Eclipse_Workspace\\ConceptsPractice\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse Oxygen\\Eclipse_Workspace\\SeleniumConceptsPractice\\ConceptsPractice\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 
