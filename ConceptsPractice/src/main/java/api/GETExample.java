@@ -27,7 +27,7 @@ public class GETExample {
 		System.out.println(rb.substring(11,rb.length()-2));
 		
 		// Getting Device ID ---------------------------------------------------------------------------------------------
-		RestAssured.baseURI="https://fxg-fleet-dev.maximo.com/maximo/oslc/os"; 
+		RestAssured.baseURI="https://fxg-fleet-dev.maximo.com/maxrest/oslc/os"; 
 		RequestSpecification httpGetRequest = RestAssured.given().auth().preemptive().basic("GPSADAPTER", "maximoCloud0615");
 		httpGetRequest.header("Content-Type","application/json");
 		httpGetRequest.header("Authorization","BASIC R1BTQURBUFRFUjogbWF4aW1vQ2xvdWQwNjE1");
